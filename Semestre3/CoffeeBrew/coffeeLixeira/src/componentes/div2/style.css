@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-item{
+    @apply bg-brown-700 border border-brown-800 rounded-lg shadow dark:bg-gray-800 dark:border-brown-800 p-2  hover:bg-brown-300 duration-200;
+    
+   
+}

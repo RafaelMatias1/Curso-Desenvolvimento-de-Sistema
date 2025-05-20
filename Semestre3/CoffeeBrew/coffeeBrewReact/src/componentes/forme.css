@@ -1,0 +1,27 @@
+.formeHeader,
+body,
+nav,
+header,
+h1 {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #5d2410;
+}
+section {
+  padding: 1%;
+}
+
+.paginaMenu {
+  display: flex;
+}
+.menuCentral {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}

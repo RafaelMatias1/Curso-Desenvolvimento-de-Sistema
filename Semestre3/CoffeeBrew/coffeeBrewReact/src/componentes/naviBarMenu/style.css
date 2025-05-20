@@ -1,0 +1,9 @@
+.nav{
+  height: 50px;
+  width: 1350px;
+  display: flex;
+ 
+  justify-content: end;
+  
+  background-color: #471909;
+};
