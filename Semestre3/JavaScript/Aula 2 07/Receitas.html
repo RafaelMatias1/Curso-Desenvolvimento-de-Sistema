@@ -1,0 +1,65 @@
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRUD de Receitas</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <h2>Cadastrar Receita</h2>
+    <div id="cadastrarForm">
+        <label for="nome">Nome da Receita:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="ingredientes">Ingredientes:</label><br>
+        <textarea id="ingredientes" name="ingredientes" required></textarea><br><br>
+        
+        <label for="modoDePreparo">Modo de Preparo:</label><br>
+        <textarea id="modoDePreparo" name="modoDePreparo" required></textarea><br><br>
+        
+        <button id = "btn" type="fracionar">Cadastrar</button>
+    </div>
+
+    <h2>Pesquisar Receita</h2>
+    <div id="pesquisarForm">
+        <label for="nomePesquisa">Nome da Receita:</label>
+        <input type="text" id="nomePesquisa" name="nomePesquisa" required><br><br>
+        <button type="fracionar">Pesquisar</button>
+    </div>
+    <div id="resultadoPesquisa"></div>
+
+    <h2>Editar Receita</h2>
+    <div id="editarForm">
+        <label for="nomeEditar">Nome da Receita:</label>
+        <input type="text" id="nomeEditar" name="nomeEditar" required><br><br>
+        
+        <label for="novosIngredientes">Novos Ingredientes:</label><br>
+        <textarea id="novosIngredientes" name="novosIngredientes" required></textarea><br><br>
+        
+        <label for="novoModoDePreparo">Novo Modo de Preparo:</label><br>
+        <textarea id="novoModoDePreparo" name="novoModoDePreparo" required></textarea><br><br>
+        
+        <button type="fracionar">Editar</button>
+    </div>
+
+    <h2>Deletar Receita</h2>
+    <div id="deletarForm">
+        <label for="nomeDeletar">Nome da Receita:</label>
+        <input type="text" id="nomeDeletar" name="nomeDeletar" required><br><br>
+        <button type="fracionar">Deletar</button>
+    </div>
+
+    <h2>Fracionar Receita</h2>
+    <div id="fracionarForm">
+        <label for="nomeFracionar">Nome da Receita:</label>
+        <input type="text" id="nomeFracionar" name="nomeFracionar" required><br><br>
+        
+        <label for="quantidadeFracionar">Quantidade para Fracionar:</label>
+        <input type="number" id="quantidadeFracionar" name="quantidadeFracionar" step="0.1" min="0" required><br><br>
+        
+        <button type="fracionar">Fracionar</button>
+    </div>
+    <script src="receitas.js"></script>
+</body>
+</html>
